@@ -45,6 +45,9 @@ a {
     font-weight: 400;
     font-size: 46px;
 }
+.black-title {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+}
 
 .inline-link {
     text-decoration: underline;
@@ -89,6 +92,9 @@ a {
     color: #303030;
     max-width: 85%;
 }
+.left-image > div > p {
+    margin-left: auto;
+}
 .right-image > img, .left-image > img {
     min-width: 50%;
 }
@@ -109,10 +115,15 @@ a {
 .about {
     text-align: center;
     margin-top: 145px;
+    margin-bottom: 180px;
 }
 .about > h1 {
     color: #303030;
     margin-bottom: 180px;
+}
+
+.covid > div > img {
+    min-width: 40% !important;
 }
 
 
@@ -139,7 +150,7 @@ a {
     .intro > div > img {
         display: none;
     }
-    .intro .right-image > div {
+    .right-image > div, .left-image > div {
         max-width: 100%;
     }
     .intro h1 {
@@ -169,6 +180,9 @@ a {
     }
     .intro-link_container .inline-link {
         margin-top: 15px;
+    }
+    .about {
+        margin-bottom: 70px;
     }
     .about > h1 {
         margin-bottom: 80px;
