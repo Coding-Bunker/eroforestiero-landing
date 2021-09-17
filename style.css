@@ -29,9 +29,40 @@
 section {
   margin: 0 9%;  
 }
+a {
+    text-decoration: none;
+}
+.intro-title {
+    font-size: 57px;
+    font-weight: 400;
+    max-width: 60%;
+    line-height: 64px;
+}
+.intro-title > span {
+    font-size: 900;
+}
 .regular-title {
     font-weight: 400;
     font-size: 46px;
+}
+
+.inline-link {
+    text-decoration: underline;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 20px;
+    color: #888888;
+}
+.button {
+    padding: 15px 45px;
+    display: inline-block;
+}
+.green-filled_button {
+    background-color: #008964;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 26px;
 }
 
 /* General sections styles */
@@ -47,23 +78,37 @@ section {
     align-items: center;
     flex-direction: row-reverse;  
 }
-.right-image, .left-image > div {
+.right-image > div, .left-image > div {
     text-align: left;
+    max-width: 50%;
 }
-.right-image, .left-image > div > p {
+.right-image > div > p, .left-image > div > p {
     font-size: 24px;
     line-height: 36px;
     font-weight: 400;
     color: #303030;
     max-width: 85%;
 }
-.right-image, .left-image > img {
+.right-image > img, .left-image > img {
     min-width: 50%;
 }
 
 /* Section styles */
+.intro > div > img {
+    min-width: 20% !important;
+}
+.intro-link_container {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.intro-link_container .inline-link {
+    margin-left: 55px;
+}
 .about {
     text-align: center;
+    margin-top: 145px;
 }
 .about > h1 {
     color: #303030;
@@ -74,8 +119,13 @@ section {
 
 
 /* Media queries */
+@media screen and (max-width: 1434px) {
+    .intro-link_container .inline-link {
+        margin: 0;
+    }
+}
 @media screen and (max-width: 1155px) {
-    .right-image, .left-image > div > p {
+    .right-image > div > p, .left-image > div > p {
         font-size: 18px;
         line-height: 27px;
     }
@@ -86,6 +136,16 @@ section {
         font-size: 35px;
     }
 
+    .intro > div > img {
+        display: none;
+    }
+    .intro .right-image > div {
+        max-width: 100%;
+    }
+    .intro h1 {
+        max-width: 100%;
+    }
+
     .about > h1 {
         margin-bottom: 130px;
     }
@@ -93,21 +153,40 @@ section {
     .right-image, .left-image {
         flex-direction: column-reverse;
     }
-    .right-image, .left-image > div > p {
+    .right-image > div > p, .left-image > div > p {
         max-width: 100%;
     }
-    .right-image, .left-image > img {
+    .right-image > img, .left-image > img {
         width: 50%;
         margin-bottom: 70px;
     }
 }
 
 @media screen and (max-width: 610px) {
+    .intro h1 {
+        font-size: 39px;
+        line-height: 45px;
+    }
+    .intro-link_container .inline-link {
+        margin-top: 15px;
+    }
     .about > h1 {
         margin-bottom: 80px;
     }
 
-    .right-image, .left-image > img {
+    .right-image > img, .left-image > img {
         width: 100%;
     }
+    .right-image > div, .left-image > div {
+        text-align: left;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .button {
+        padding: 15px 25px;
+        display: inline-block;
+        font-size: 20px;
+    } 
 }
