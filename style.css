@@ -47,6 +47,9 @@ a {
 }
 .black-title {
     font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 57px;
+    line-height: 64px;
+    color: #303030;
 }
 
 .inline-link {
@@ -121,6 +124,49 @@ a {
     min-width: 40%;
 }
 
+.external-card-container {
+    text-align: center;
+    margin-top: 120px;
+}
+.external-card-container > h2 {
+    font-size: 46px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    color: #303030;
+}
+
+.large-card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.large-card {
+    min-width: 30%;
+    max-width: 30%;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 60px 45px 45px 45px;
+}
+.large-card > div {
+    margin: auto;
+    width: 170px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.large-card > h3 {
+    font-size: 30px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    line-height: 39px;
+    margin-top: 14px;
+}
+.large-card > p {
+    margin-top: 14px;
+}
+
 /* Section styles */
 .website-header {
     text-align: center;
@@ -168,6 +214,14 @@ a {
 }
 .about > h1 {
     color: #303030;
+    margin-bottom: 180px;
+}
+
+.learning-path {
+    margin-bottom: 180px;
+}
+
+.testimonials {
     margin-bottom: 180px;
 }
 
@@ -265,6 +319,20 @@ a {
         width: 50%;
         margin-bottom: 70px;
     }
+
+    .large-card_container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .large-card {
+        max-width: 80%;
+        min-width: 80%;
+        margin: 18px 0;
+    }
+
+    .learning-path > h1 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 610px) {
@@ -287,6 +355,11 @@ a {
     section > h1 {
         text-align: center !important;
         margin-bottom: 50px;
+    }
+
+    .large-card {
+        max-width: 100%;
+        min-width: 100%;
     }
 
     .intro h1 {
