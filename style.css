@@ -229,6 +229,9 @@ a {
     .regular-title {
         font-size: 35px;
     }
+    .green-outline_button {
+        padding: 11px 45px;
+    }
 
     .intro > div > img {
         display: none;
@@ -257,6 +260,13 @@ a {
 }
 
 @media screen and (max-width: 610px) {
+    .donate-div {
+        padding: 15px 0;
+    }
+    .header-navbar > .button {
+        display: none;
+    }
+
     .intro h1 {
         font-size: 39px;
         line-height: 45px;
@@ -277,6 +287,10 @@ a {
     .right-image > div, .left-image > div {
         text-align: left;
         max-width: 100%;
+    }
+
+    .website-footer {
+        font-size: 16px;
     }
 }
 
