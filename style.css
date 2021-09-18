@@ -162,6 +162,20 @@ a {
 }
 
 
+.website-footer {
+    width: 100%;
+    padding: 34px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #646464;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 180px;
+}
+
+
 
 
 /* Media queries */
