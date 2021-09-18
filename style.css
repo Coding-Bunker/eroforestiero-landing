@@ -263,8 +263,22 @@ a {
     .donate-div {
         padding: 15px 0;
     }
+    .website-header > a > img {
+        margin: 30px 0;
+    }
+    .header-navbar > img {
+        width: 94%;
+    }
     .header-navbar > .button {
         display: none;
+    }
+
+    section {
+        margin-bottom: 80px !important;
+    }
+    section > h1 {
+        text-align: center !important;
+        margin-bottom: 50px;
     }
 
     .intro h1 {
@@ -287,6 +301,27 @@ a {
     .right-image > div, .left-image > div {
         text-align: left;
         max-width: 100%;
+    }
+
+    .donate > div > div {
+        text-align: center;
+    }
+    .donate > div > div > p {
+        text-align: left;
+    }
+    .donate .button {
+        text-align: center;
+    }
+
+    .volunteer > h1 {
+        font-family: 'NeuzeitGroteskCondW01-Black';
+    }
+    .volunteer > div > img {
+        margin-bottom: 55px;
+    }
+    .volunteer > a {
+        margin-top: 50px;
+        background-color: #008964;
     }
 
     .website-footer {
