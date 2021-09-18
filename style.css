@@ -51,6 +51,9 @@ a {
     line-height: 64px;
     color: #303030;
 }
+.short-title {
+    max-width: 20%;
+}
 
 .inline-link {
     text-decoration: underline;
@@ -140,6 +143,12 @@ a {
     align-items: center;
     margin-top: 80px;
 }
+.small-card_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
 
 
 .large-card {
@@ -164,6 +173,36 @@ a {
     margin-top: 14px;
 }
 .large-card > p {
+    margin-top: 14px;
+}
+
+.small-card {
+    min-width: 20%;
+    max-width: 20%;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 60px 45px 45px 45px;
+    text-align: center;
+}
+.small-card img {
+    display: block;
+    margin: auto;
+}
+.small-card_flag {
+    margin: 18px auto 12px auto !important;
+}
+.small-card > h4 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.small-card > h3 {
+    font-size: 30px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    line-height: 39px;
+    margin-top: 14px;
+}
+.small-card > p {
     margin-top: 14px;
 }
 
@@ -320,11 +359,12 @@ a {
         margin-bottom: 70px;
     }
 
-    .large-card_container {
+    .large-card_container, .small-card_container {
         flex-direction: column;
         justify-content: center;
+        margin-top: 45px;
     }
-    .large-card {
+    .large-card, .small-card {
         max-width: 80%;
         min-width: 80%;
         margin: 18px 0;
@@ -336,6 +376,13 @@ a {
 }
 
 @media screen and (max-width: 610px) {
+    .black-title {
+        font-size: 46px;
+    }
+    .short-title {
+        max-width: 100%;
+    }
+
     .donate-div {
         padding: 15px 0;
     }
@@ -357,9 +404,25 @@ a {
         margin-bottom: 50px;
     }
 
-    .large-card {
+    .large-card, .small-card {
         max-width: 100%;
         min-width: 100%;
+    }
+    .large-card > h3 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .large-card > p {
+        font-size: 15px;
+    }
+
+    .small-card > h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .small-card > p {
+        font-size: 18px;
+        line-height: 30px;
     }
 
     .intro h1 {
