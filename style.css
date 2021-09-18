@@ -74,6 +74,13 @@ a {
     font-family: 'NeuzeitGroteskCondW01-Black';
     font-size: 30px;
 }
+.gray-filled_button {
+    background-color: #646464;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 30px;
+}
 .green-outline_button {
     border: 4px solid #008964;
     padding: 11px 60px;
@@ -111,7 +118,7 @@ a {
     margin-left: auto;
 }
 .right-image > img, .left-image > img {
-    min-width: 50%;
+    min-width: 40%;
 }
 
 /* Section styles */
@@ -168,15 +175,25 @@ a {
     margin-bottom: 180px;
 }
 
-.covid > div > img {
-    min-width: 40% !important;
+.donate {
+    margin-bottom: 180px;
 }
-
 .donate .button {
     margin-top: 40px;
 }
 .donate > div > img {
     min-width: 32% !important;
+}
+
+.volunteer {
+    text-align: center;
+}
+.volunteer > h1 {
+    margin-bottom: 90px;
+    text-align: left;
+}
+.volunteer > a {
+    margin-top: 150px;
 }
 
 .website-footer {
