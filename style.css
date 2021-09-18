@@ -67,6 +67,13 @@ a {
     font-family: 'NeuzeitGroteskCondW01-Black';
     font-size: 26px;
 }
+.yellow-filled_button {
+    background-color: #FED253;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 30px;
+}
 .green-outline_button {
     border: 4px solid #008964;
     padding: 11px 60px;
@@ -157,10 +164,20 @@ a {
     margin-bottom: 180px;
 }
 
+.covid {
+    margin-bottom: 180px;
+}
+
 .covid > div > img {
     min-width: 40% !important;
 }
 
+.donate .button {
+    margin-top: 40px;
+}
+.donate > div > img {
+    min-width: 32% !important;
+}
 
 .website-footer {
     width: 100%;
