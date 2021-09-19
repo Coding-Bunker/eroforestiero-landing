@@ -277,6 +277,14 @@ a {
 
 .testimonials {
     margin-bottom: 180px;
+    text-align: center;
+}
+.testimonials > .short-title {
+    text-align: left;
+}
+.testimonials > a {
+    margin-top: 100px;
+    padding: 15px 70px;
 }
 
 .covid {
@@ -516,6 +524,11 @@ a {
 @media screen and (max-width: 370px) {
     .page-logo {
         font-size: 40px;
+    }
+
+    .small-card {
+        height: fit-content !important;
+        padding: 20px 0;
     }
 
     .button {
