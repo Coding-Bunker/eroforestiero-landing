@@ -32,6 +32,16 @@ section {
 a {
     text-decoration: none;
 }
+.page-logo {
+    font-size: 53px;
+    color: #888888;
+    text-align: left !important;
+}
+.black-logo {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    color: #000;
+}
+
 .intro-title {
     font-size: 57px;
     font-weight: 400;
@@ -375,6 +385,12 @@ a {
     }
 }
 
+@media screen and (max-width: 692px) {
+    .page-logo {
+        font-size: 45px;
+    }
+}
+
 @media screen and (max-width: 610px) {
     .black-title {
         font-size: 46px;
@@ -485,6 +501,10 @@ a {
 }
 
 @media screen and (max-width: 370px) {
+    .page-logo {
+        font-size: 40px;
+    }
+
     .button {
         padding: 15px 25px;
         display: inline-block;
