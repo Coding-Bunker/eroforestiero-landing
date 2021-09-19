@@ -190,6 +190,7 @@ a {
 .small-card {
     min-width: 20%;
     max-width: 20%;
+    height: 556px;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 60px 45px 45px 45px;
@@ -198,6 +199,9 @@ a {
 .small-card img {
     display: block;
     margin: auto;
+}
+.small-card > div > img {
+    max-width: 80%;
 }
 .small-card_flag {
     margin: 18px auto 12px auto !important;
@@ -210,7 +214,7 @@ a {
 .small-card > h3 {
     font-size: 30px;
     font-family: 'NeuzeitGroteskCondW01-Black';
-    line-height: 39px;
+    line-height: 30px;
     margin-top: 14px;
 }
 .small-card > p {
@@ -338,6 +342,10 @@ a {
 
     .large-card {
         height: 370px;
+    }
+    .small-card {
+        min-width: 25%;
+        max-width: 25%;
     }
 }
 
