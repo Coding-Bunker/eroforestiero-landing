@@ -1,0 +1,493 @@
+@font-face 
+{
+   font-family: "NeuzeitGroteskW01-Regular"; 
+   src: url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.eot"); 
+   src: url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.eot?#iefix") format("embedded-opentype"), 
+   url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.woff2") format("woff2"), 
+   url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.woff") format("woff"), 
+   url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.ttf") format("truetype"), 
+   url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.svg#NeuzeitGroteskW01-Regular") format("svg"); 
+}
+@font-face 
+{
+   font-family: "NeuzeitGroteskCondW01-Black"; 
+   src: url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.eot"); 
+   src: url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.eot?#iefix") format("embedded-opentype"), 
+   url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.woff2") format("woff2"), 
+   url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.woff") format("woff"), 
+   url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.ttf") format("truetype"), 
+   url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.svg#NeuzeitGroteskCondW01-Black") format("svg");
+}
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NeuzeitGroteskW01-Regular', 'NeuzeitGroteskCondW01-Black', Arial, Helvetica, sans-serif;
+}
+section {
+  margin: 0 9%;  
+}
+a {
+    text-decoration: none;
+}
+.intro-title {
+    font-size: 57px;
+    font-weight: 400;
+    max-width: 60%;
+    line-height: 64px;
+}
+.intro-title > span {
+    font-size: 900;
+}
+.regular-title {
+    font-weight: 400;
+    font-size: 46px;
+}
+.black-title {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 57px;
+    line-height: 64px;
+    color: #303030;
+}
+.short-title {
+    max-width: 20%;
+}
+
+.inline-link {
+    text-decoration: underline;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 20px;
+    color: #888888;
+}
+.button {
+    padding: 15px 45px;
+    display: inline-block;
+}
+.green-filled_button {
+    background-color: #008964;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 26px;
+}
+.yellow-filled_button {
+    background-color: #FED253;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 30px;
+}
+.gray-filled_button {
+    background-color: #646464;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 30px;
+}
+.green-outline_button {
+    border: 4px solid #008964;
+    padding: 11px 60px;
+    border-radius: 8px;
+    color: #008964;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 26px;
+}
+
+/* General sections styles */
+.right-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.left-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;  
+}
+.right-image > div, .left-image > div {
+    text-align: left;
+    max-width: 50%;
+}
+.right-image > div > p, .left-image > div > p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #303030;
+    max-width: 85%;
+}
+.left-image > div > p {
+    margin-left: auto;
+}
+.right-image > img, .left-image > img {
+    min-width: 40%;
+}
+
+.external-card-container {
+    text-align: center;
+    margin-top: 120px;
+}
+.external-card-container > h2 {
+    font-size: 46px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    color: #303030;
+}
+
+.large-card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.small-card_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.large-card {
+    min-width: 30%;
+    max-width: 30%;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 60px 45px 45px 45px;
+}
+.large-card > div {
+    margin: auto;
+    width: 170px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.large-card > h3 {
+    font-size: 30px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    line-height: 39px;
+    margin-top: 14px;
+}
+.large-card > p {
+    margin-top: 14px;
+}
+
+.small-card {
+    min-width: 20%;
+    max-width: 20%;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 60px 45px 45px 45px;
+    text-align: center;
+}
+.small-card img {
+    display: block;
+    margin: auto;
+}
+.small-card_flag {
+    margin: 18px auto 12px auto !important;
+}
+.small-card > h4 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.small-card > h3 {
+    font-size: 30px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    line-height: 39px;
+    margin-top: 14px;
+}
+.small-card > p {
+    margin-top: 14px;
+}
+
+/* Section styles */
+.website-header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.donate-div {
+    width: 100%;
+    padding: 26px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D3D3D;
+    color: #fff;
+}
+.donate-div > a {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header-navbar {
+    margin: 0 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.intro > div > img {
+    min-width: 20% !important;
+}
+.intro-link_container {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.intro-link_container .inline-link {
+    margin-left: 55px;
+}
+.about {
+    text-align: center;
+    margin-top: 145px;
+    margin-bottom: 180px;
+}
+.about > h1 {
+    color: #303030;
+    margin-bottom: 180px;
+}
+
+.learning-path {
+    margin-bottom: 180px;
+}
+
+.testimonials {
+    margin-bottom: 180px;
+}
+
+.covid {
+    margin-bottom: 180px;
+}
+
+.donate {
+    margin-bottom: 180px;
+}
+.donate .button {
+    margin-top: 40px;
+}
+.donate > div > img {
+    min-width: 32% !important;
+}
+
+.volunteer {
+    text-align: center;
+    margin-bottom: 180px;
+}
+.volunteer > h1 {
+    margin-bottom: 90px;
+    text-align: left;
+}
+.volunteer > a {
+    margin-top: 150px;
+}
+
+.contact .button {
+    margin-top: 80px;
+}
+.contact > div > img {
+    min-width: 32% !important;
+}
+
+.website-footer {
+    width: 100%;
+    padding: 34px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #646464;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 180px;
+}
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 1434px) {
+    .intro-link_container .inline-link {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .right-image > div > p, .left-image > div > p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .regular-title {
+        font-size: 35px;
+    }
+    .green-outline_button {
+        padding: 11px 45px;
+    }
+
+    .intro > div > img {
+        display: none;
+    }
+    .right-image > div, .left-image > div {
+        max-width: 100%;
+    }
+    .intro h1 {
+        max-width: 100%;
+    }
+
+    .about > h1 {
+        margin-bottom: 130px;
+    }
+
+    .right-image, .left-image {
+        flex-direction: column-reverse;
+    }
+    .right-image > div > p, .left-image > div > p {
+        max-width: 100%;
+    }
+    .right-image > img, .left-image > img {
+        width: 50%;
+        margin-bottom: 70px;
+    }
+
+    .large-card_container, .small-card_container {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 45px;
+    }
+    .large-card, .small-card {
+        max-width: 80%;
+        min-width: 80%;
+        margin: 18px 0;
+    }
+
+    .learning-path > h1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .black-title {
+        font-size: 46px;
+    }
+    .short-title {
+        max-width: 100%;
+    }
+
+    .donate-div {
+        padding: 15px 0;
+    }
+    .website-header > a > img {
+        margin: 30px 0;
+    }
+    .header-navbar > img {
+        width: 94%;
+    }
+    .header-navbar > .button {
+        display: none;
+    }
+
+    section {
+        margin-bottom: 80px !important;
+    }
+    section > h1 {
+        text-align: center !important;
+        margin-bottom: 50px;
+    }
+
+    .large-card, .small-card {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .large-card > h3 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .large-card > p {
+        font-size: 15px;
+    }
+
+    .small-card > h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .small-card > p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .intro h1 {
+        font-size: 39px;
+        line-height: 45px;
+    }
+    .intro-link_container .inline-link {
+        margin-top: 15px;
+    }
+    .about {
+        margin-bottom: 70px;
+    }
+    .about > h1 {
+        margin-bottom: 80px;
+    }
+
+    .right-image > img, .left-image > img {
+        width: 100%;
+    }
+    .right-image > div, .left-image > div {
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .donate > div > div {
+        text-align: center;
+    }
+    .donate > div > div > p {
+        text-align: left;
+    }
+    .donate .button {
+        text-align: center;
+    }
+
+    .volunteer > h1 {
+        font-family: 'NeuzeitGroteskCondW01-Black';
+    }
+    .volunteer > div > img {
+        margin-bottom: 55px;
+    }
+    .volunteer > a {
+        margin-top: 50px;
+        background-color: #008964;
+        font-size: 22px;
+    }
+
+    .contact > div > div {
+        text-align: center;
+    }
+    .contact > div > div > p {
+        text-align: left;
+    }
+    .contact .button {
+        text-align: center;
+    }
+
+    .website-footer {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .button {
+        padding: 15px 25px;
+        display: inline-block;
+        font-size: 20px;
+    } 
+}
