@@ -164,9 +164,10 @@ a {
 .large-card {
     min-width: 30%;
     max-width: 30%;
+    height: 351px;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    padding: 60px 45px 45px 45px;
+    padding: 60px 25px 45px 25px;
 }
 .large-card > div {
     margin: auto;
@@ -333,6 +334,10 @@ a {
     .right-image > div > p, .left-image > div > p {
         font-size: 18px;
         line-height: 27px;
+    }
+
+    .large-card {
+        height: 370px;
     }
 }
 
