@@ -32,6 +32,16 @@ section {
 a {
     text-decoration: none;
 }
+.page-logo {
+    font-size: 53px;
+    color: #888888;
+    text-align: left !important;
+}
+.black-logo {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    color: #000;
+}
+
 .intro-title {
     font-size: 57px;
     font-weight: 400;
@@ -154,9 +164,10 @@ a {
 .large-card {
     min-width: 30%;
     max-width: 30%;
+    height: 351px;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    padding: 60px 45px 45px 45px;
+    padding: 60px 25px 45px 25px;
 }
 .large-card > div {
     margin: auto;
@@ -179,6 +190,7 @@ a {
 .small-card {
     min-width: 20%;
     max-width: 20%;
+    height: 556px;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 60px 45px 45px 45px;
@@ -187,6 +199,9 @@ a {
 .small-card img {
     display: block;
     margin: auto;
+}
+.small-card > div > img {
+    max-width: 80%;
 }
 .small-card_flag {
     margin: 18px auto 12px auto !important;
@@ -199,7 +214,7 @@ a {
 .small-card > h3 {
     font-size: 30px;
     font-family: 'NeuzeitGroteskCondW01-Black';
-    line-height: 39px;
+    line-height: 30px;
     margin-top: 14px;
 }
 .small-card > p {
@@ -262,6 +277,14 @@ a {
 
 .testimonials {
     margin-bottom: 180px;
+    text-align: center;
+}
+.testimonials > .short-title {
+    text-align: left;
+}
+.testimonials > a {
+    margin-top: 100px;
+    padding: 15px 70px;
 }
 
 .covid {
@@ -324,6 +347,14 @@ a {
         font-size: 18px;
         line-height: 27px;
     }
+
+    .large-card {
+        height: 370px;
+    }
+    .small-card {
+        min-width: 25%;
+        max-width: 25%;
+    }
 }
 
 @media screen and (max-width: 955px) {
@@ -372,6 +403,12 @@ a {
 
     .learning-path > h1 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .page-logo {
+        font-size: 45px;
     }
 }
 
@@ -485,6 +522,15 @@ a {
 }
 
 @media screen and (max-width: 370px) {
+    .page-logo {
+        font-size: 40px;
+    }
+
+    .small-card {
+        height: fit-content !important;
+        padding: 20px 0;
+    }
+
     .button {
         padding: 15px 25px;
         display: inline-block;
