@@ -19,6 +19,19 @@
    url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.svg#NeuzeitGroteskCondW01-Black") format("svg");
 }
 
+::-moz-selection { 
+  color: white;
+  background: #008964;
+}
+
+::selection {
+  color: white;
+  background: #008964;
+}
+
+
+
+
 /* General styles */
 * {
     margin: 0;
@@ -541,4 +554,15 @@ a {
         display: inline-block;
         font-size: 20px;
     } 
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
