@@ -342,6 +342,11 @@ a {
         margin: 0;
     }
 }
+@media screen and (max-width: 1370px) {
+    .small-card {
+        padding: 50px 25px 30px 25px;
+    }
+}
 @media screen and (max-width: 1155px) {
     .right-image > div > p, .left-image > div > p {
         font-size: 18px;
