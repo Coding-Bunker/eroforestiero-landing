@@ -271,8 +271,8 @@ a {
     flex-wrap: wrap;
     align-items: center;
 }
-.intro-link_container .inline-link {
-    margin-left: 55px;
+.intro-link_container .green-filled_button {
+    margin-right: 55px;
 }
 .about {
     text-align: center;
@@ -350,7 +350,7 @@ a {
 
 
 /* Media queries */
-@media screen and (max-width: 1434px) {
+@media screen and (max-width: 1490px) {
     .intro-link_container {
         display: flex;
         flex-direction: column;
@@ -359,6 +359,9 @@ a {
     .intro-link_container .inline-link {
         margin-left: 0;
         margin-top: 15px;
+    }
+    .intro-link_container .green-filled_button {
+        margin: 0;
     }
 }
 
