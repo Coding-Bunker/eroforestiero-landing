@@ -1,4 +1,20 @@
-# Ero Forestiero Landing
+# Ero Forestiero Landing (EN)
+
+The goal is to develop a full vanilla landing page and then convert it into a Wordpress theme.
+
+This is the design we are working on:
+
+![eroforestiero](images/correct.png)
+
+To contribute write to info@codingbunker.it or make a request on our discord server:
+
+<a href="https://discord.com/invite/9x4FqmTxDu" target="_blank">Discord link</a>
+
+Thank you
+
+--- 
+
+# Ero Forestiero Landing (IT)
 
 L'obiettivo è sviluppare una landing page full vanilla per poi convertirla in tema Wordpress.
 
