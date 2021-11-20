@@ -5,6 +5,7 @@
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_page_not_found_su7k 1.png" alt="error-page image">
         <div class="error-page__text-container">
             <h3>Non siamo riusciti a trovare la pagina che stavi cercando</h3>
+            <a href="<?= get_home_url() ?>">Torna alla Home</a>
         </div>
     </div>
 
