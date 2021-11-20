@@ -15,6 +15,8 @@
         <meta name="description" content="Ero Forestiero è un’associazione senza scopo di lucro, apartitica e 
         apolitica che svolge attività formative a favore dell’integrazione sociale delle persone di origine non italiana 
         presenti sul territorio di Vigevano, ponendo particolare attenzione alla tutela della loro identità culturale e religiosa.">
+        
+        <meta name="keywords" content="eroforestiero, ero, forestiero, italiano, corsi, imparare">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
