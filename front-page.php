@@ -151,6 +151,11 @@
         <div class="right-image">
             <div class="content-div">
                 <p>
+                  Puoi sostere il progetto donando il tuo cinque per mille dell'Irpef indicando il codice fiscale: <b>940205901181</b> <br>
+                  oppure facendo un bonifico con importo libero al seguente iban: <b>IT44P0623023000000031861016</b>
+                </p> <br> <br>
+                
+                <p>
 									Una modalità semplice e preziosa per sostenerci. <br> <br>
 									In base all'art.83, comma 1 D.Lgs 117/2017 le erogazioni liberali in
 									denaro effettuate a favore delle organizzazioni di volontariato (OdV)

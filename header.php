@@ -10,6 +10,7 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>">
         <!-- Viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
 
         <!-- ATTENZIONE: Nello sviluppo WordPress, per includere delle immagini o qualsiasi altro media o file presente nella cartella
         del progetti è necessario inserire nell'attributo href o scr, a seconda del tag che si sta usando, prima
@@ -43,7 +44,7 @@
       <!-- Navbar -->
           <header class="website-header">
               <div class="donate-div">
-                  <p>Sostieni il progetto, dona il tuo cinque per mille dell'Irpef indicando il codice fiscale: <b>940205901181</b></p>
+                  <p>I corsi stanno per iniziare, le iscrizioni sono aperte!</p>
               </div>
 
               <!-- <a href=""> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/uk-flag.png" alt="English flag"> </a> -->
