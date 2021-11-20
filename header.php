@@ -46,7 +46,7 @@
                   <p>Sostieni il progetto, dona il tuo cinque per mille dell'Irpef indicando il codice fiscale: <b>940205901181</b></p>
               </div>
 
-              <a href=""> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/uk-flag.png" alt="English flag"> </a>
+              <!-- <a href=""> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/uk-flag.png" alt="English flag"> </a> -->
 
               <div class="header-navbar noselect">
                   <span class="page-logo">Ero <span class="page-logo black-logo">Forestiero</span> </span>

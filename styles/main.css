@@ -249,6 +249,10 @@ a {
     background-color: #3D3D3D;
     color: #fff;
 }
+.donate-div p {
+    margin-top: 10px;
+}
+
 .donate-div > a {
     font-size: 22px;
     color: #fff;
