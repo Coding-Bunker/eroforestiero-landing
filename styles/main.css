@@ -582,3 +582,19 @@ a {
 .small-card img {
   margin-bottom: 60px;
 }
+
+
+.inline-link a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.green-filled_button a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gray-filled_buttona a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

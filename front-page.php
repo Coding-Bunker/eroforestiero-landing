@@ -98,8 +98,7 @@
                     <div> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/person.svg" alt="Immagine primo studente" class="noselect"> </div>
                     <h3>Radi</h3>
                     <p>
-                        “Ho iniziato a studiare l'italiano in questa scuola dal 2009, frequentando il corso base, poi l'intermedio e poi l’avanzato. 
-                        Dopo tre anni, con l'aiuto degli insegnanti che sono diventati i miei migliori amici, ho iniziato ad aiutarli durante i corsi. ”
+                        “Ho iniziato a studiare l'italiano in questa scuola dal 2009, frequentando il corso base, poi l'intermedio e poi l’avanzato.”
                     </p>
                 </div>
 
@@ -153,10 +152,9 @@
                 <p>
                   Puoi sostere il progetto donando il tuo cinque per mille dell'Irpef indicando il codice fiscale: <b>940205901181</b> <br>
                   oppure facendo un bonifico con importo libero al seguente iban: <b>IT44P0623023000000031861016</b>
-                </p> <br> <br>
+                </p> <br>
                 
                 <p>
-									Una modalità semplice e preziosa per sostenerci. <br> <br>
 									In base all'art.83, comma 1 D.Lgs 117/2017 le erogazioni liberali in
 									denaro effettuate a favore delle organizzazioni di volontariato (OdV)
 									danno diritto ad una detrazione d'imposta (IRPEF) pari al 35% entro
