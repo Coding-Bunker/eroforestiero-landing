@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ero-forestiero-logo.png" alt="Ero Forestiero logo" class="noselect"  />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eroforestiero-logo.png" alt="Ero Forestiero logo" class="noselect"  />
         </div>
     </section>
 <!-- End Intro Section -->
