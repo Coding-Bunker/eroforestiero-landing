@@ -21,6 +21,8 @@
   apolitica che svolge attività formative a favore dell’integrazione sociale delle persone di origine non italiana 
   presenti sul territorio di Vigevano, ponendo particolare attenzione alla tutela della loro identità culturale e religiosa." />
 	<meta property="og:image" content="https://i.imgur.com/sRcWZR7.png" />
+	
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/main.css" type="text/css" media="all" />
     
   <?php wp_head(); ?>
 </head>
