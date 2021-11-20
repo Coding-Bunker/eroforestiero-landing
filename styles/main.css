@@ -584,26 +584,7 @@ a {
 }
 
 
-.inline-link a:hover, a:focus, a:active {
-  color: inherit;
-}
-
-.green-filled_button a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
-
-.green-filled_button {
-    text-decoration: none;
-    color: inherit;
-}
-
-.gray-filled_button {
-    text-decoration: none;
-    color: inherit;
-}
-
-.gray-filled_button a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none !important;
+  box-shadow: none !important;
 }
