@@ -158,7 +158,7 @@
 									il limite di 30.000 euro.
                 </p>
 
-                <a href="" class="button yellow-filled_button">Dona</a>
+                <!-- <a href="" class="button yellow-filled_button">Dona</a> -->
             </div>
 
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/donate-image.png" alt="Donation image" class="noselect"/>
