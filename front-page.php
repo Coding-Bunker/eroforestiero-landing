@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <img src="./images/eroforestiero-logo.png" alt="Ero Forestiero logo" class="noselect"  />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ero-forestiero-logo.png" alt="Ero Forestiero logo" class="noselect"  />
         </div>
     </section>
 <!-- End Intro Section -->
@@ -51,7 +51,7 @@
 
             </div>
 
-            <img src="./images/teacher-image.png" alt="teacher image" class="noselect" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/teacher-image.png" alt="teacher image" class="noselect" />
         </div>
     </section>
 <!-- End About Section -->
@@ -63,7 +63,7 @@
             <h2>I nostri corsi</h2>
             <div class="large-card_container">
                 <div class="large-card">
-                    <div> <img src="images/base_course-image.png" alt="Immagine corso base" class="noselect"> </div>
+                    <div> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base_course-image.png" alt="Immagine corso base" class="noselect"> </div>
                     <h3>Base</h3>
                     <p>
                         Iniziale alfabetizzazione di base con insegnamento della lettura e scrittura in italiano, ma anche rudimentali basi di verbi e vocaboli
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="large-card">
-                    <div> <img src="images/middle_course-image.png" alt="Immagine corso intermedio" class="noselect"> </div>
+                    <div> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/middle_course-image.png" alt="Immagine corso intermedio" class="noselect"> </div>
                     <h3>Intermedio</h3>
                     <p>
                         E’ diviso in due fasi, a seconda dell’approfondimento grammaticale
@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="large-card">
-                    <div> <img src="images/advanced_course-image.png" alt="Immagine corso avanzato" class="noselect"> </div>
+                    <div> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/advanced_course-image.png" alt="Immagine corso avanzato" class="noselect"> </div>
                     <h3>Avanzato</h3>
                     <p>
                         Viene lasciato più spazio alla competenza attiva
@@ -95,7 +95,7 @@
         <h1 class="black-title short-title">Alcune testimonianze</h1>
             <div class="small-card_container">
                 <div class="small-card">
-                    <div> <img src="images/person.svg" alt="Immagine primo studente" class="noselect"> </div>
+                    <div> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/person.svg" alt="Immagine primo studente" class="noselect"> </div>
                     <h3>Radi</h3>
                     <p>
                         “Ho iniziato a studiare l'italiano in questa scuola dal 2009, frequentando il corso base, poi l'intermedio e poi l’avanzato. 
@@ -104,7 +104,7 @@
                 </div>
 
                 <div class="small-card">
-                    <div> <img src="images/person.svg" alt="Immagine secondo studente" class="noselect"> </div>
+                    <div> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/person.svg" alt="Immagine secondo studente" class="noselect"> </div>
                     <h3>Benedetto</h3>
                     <p>
                         “Ero disperato e non sapevo ciò che facevo né ciò che dicevo, Ero forestiero mi ha dato la luce. <br> 
@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="small-card">
-                    <div> <img src="images/person.svg" alt="Immagine terzo studente" class="noselect"> </div>
+                    <div> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/person.svg" alt="Immagine terzo studente" class="noselect"> </div>
                     <h3>Aldo</h3>
                     <p>
                         “Quando sono arrivato non conoscevo nessuno e non sapevo parlare in italiano, ho conosciuto tante nuove persone e trovato nuovi amici. <br> 
@@ -140,7 +140,7 @@
                 </p>
             </div>
 
-            <img src="./images/covid-image.png" alt="Social distance image" class="noselect"/>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/covid-image.png" alt="Social distance image" class="noselect"/>
         </div>
     </section>
 <!-- End Covid-19 Section -->
@@ -161,7 +161,7 @@
                 <a href="" class="button yellow-filled_button">Dona</a>
             </div>
 
-            <img src="./images/donate-image.png" alt="Donation image" class="noselect"/>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/donate-image.png" alt="Donation image" class="noselect"/>
         </div>
     </section>
 <!-- End Donate Section -->
@@ -179,7 +179,7 @@
                 </p>
             </div>
 
-            <img src="./images/volunteer-image.png" alt="Volunteer image" class="noselect" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/volunteer-image.png" alt="Volunteer image" class="noselect" />
         </div>
         <a href="https://forms.gle/grfViUxHxewua9rq8" class="button gray-filled_button">Diventa un volontario</a>
     </section>
@@ -200,7 +200,7 @@
                 </p>
             </div>
 
-            <img src="./images/contact-image.png" alt="Contact section image" class="noselect" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/contact-image.png" alt="Contact section image" class="noselect" />
         </div>
     </section>
 <!-- End Contact Section -->
