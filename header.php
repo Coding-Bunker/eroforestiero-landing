@@ -12,6 +12,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="format-detection" content="telephone=no">
 
+        <meta name="description" content="Ero Forestiero è un’associazione senza scopo di lucro, apartitica e 
+        apolitica che svolge attività formative a favore dell’integrazione sociale delle persone di origine non italiana 
+        presenti sul territorio di Vigevano, ponendo particolare attenzione alla tutela della loro identità culturale e religiosa.">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:image" content="https://i.imgur.com/sRcWZR7.png" />
+        
+        <meta property="og:title" content="Ero Forestiero — Imparare l'italiano si può ed è anche gratis!" />
+
+        <meta property="og:description" content="Ero Forestiero è un’associazione senza scopo di lucro, apartitica e 
+        apolitica che svolge attività formative a favore dell’integrazione sociale delle persone di origine non italiana 
+        presenti sul territorio di Vigevano, ponendo particolare attenzione alla tutela della loro identità culturale e religiosa." />
+
+
         <!-- ATTENZIONE: Nello sviluppo WordPress, per includere delle immagini o qualsiasi altro media o file presente nella cartella
         del progetti è necessario inserire nell'attributo href o scr, a seconda del tag che si sta usando, prima
         'echo get_stylesheet_directory_uri(); dentro i tag PHP di apertura e chiusura e poi inserire uno slash e il percorso dove si trova
