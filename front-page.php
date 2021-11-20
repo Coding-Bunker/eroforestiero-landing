@@ -172,7 +172,7 @@
 
 <!-- Volunteer Section -->
     <section id="volunteer" class="volunteer">
-        <h1 class="regular-title">Diventa un volontario</h1>
+        <h1 class="black-title">Diventa un volontario</h1>
         <div class="left-image">
             <div class="content-div">
                 <p>            
