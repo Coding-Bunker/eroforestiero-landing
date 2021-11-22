@@ -1,7 +1,7 @@
 @font-face 
 {
    font-family: "NeuzeitGroteskW01-Regular"; 
-   src: url("assets/font/NeuzeitGroteskW01_Regular.ttf");
+   src: url("../assets/font/NeuzeitGroteskW01_Regular.ttf");
    font-weight: normal;
    font-style: normal;
 
@@ -9,7 +9,7 @@
 @font-face 
 {
    font-family: "NeuzeitGroteskCondW01-Black"; 
-   src: url("assets/font/NeuzeitGroteskCondW01_Black.ttf");
+   src: url("../assets/font/NeuzeitGroteskCondW01_Black.ttf");
    font-weight: normal;
    font-style: normal;
 }
